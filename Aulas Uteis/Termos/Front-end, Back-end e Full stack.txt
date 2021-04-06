@@ -1,0 +1,22 @@
+Front-end:
+Em resumo o Front-end sera as coisas visuais, a tecnologia voltada para o lado do cliente, basicamente a parte da frente do site, a parte que você visualiza
+==================================
+Back-end:
+O back-end foca nas tecnologias do servidor, na parte em que você não vê, foca em ações interativas, salvar dados, e ect
+
+As linguagens usadas por desenvolvedores back-end pode ser:
+
+PHP#sendo a mais usada
+JS
+C#
+Python(s2)
+Ruby
+Java
+
+Exemplo entre a interação Front-end e Back-end:
+
+o cliente solicitou saber as camisetas, então ele envia a solicitação para o servidor, o servidor envia pro php que acessa o banco de dados e retorna um HTML para o servidor, o servidor manda o HTML para o cliente e o cliente escolhe
+==================================
+Full stack:
+Ja o desenvolvedor Full stack consegue trabalhar com os dois, ele soma o Front-end e o Back-end e pode trabalhar com os dois
+==================================

@@ -1,0 +1,73 @@
+A linguagem HTML é focada em conteudo, conteudo pode ser textos, imagens, videos, tabelas
+
+Ja o CSS tem o foco em design, cores, sombras, tamanhos, posicionamento
+
+Ja o JS tem o foco nas interações, menus, animações, popups, validações
+
+==================================
+MARCAS HTML
+==================================
+Titulo:
+
+<h1>Exemplo de título <h/1>
+
+o <h1> inicial é a abertura da tag, no meio dele vem o conteudo e o </h1> é o fechamento da tag, toda tag tem esses atributos
+
+Parágrafo:
+
+<p>Exemplo de parágrafo </p>
+
+Imagem:
+
+<img src="foto.png" alt="Exemplo de foto">
+
+O <img seria a abertura da tag, essa tag não nessecita de fechamento, a > final ja faz isso, 
+src e alt são parametros, ja o que está entre " são chamados de valor
+
+src = source (origem) basicamente ele ira pegar a origem do arquivo foto
+
+alt = alternative (alternativo) caso a foto não abra ele ira exibir a mensagem "Exemplo de foto"
+==================================
+ESTILO EM CSS
+==================================
+Serve para definir coisas como a fonte, dimensão, ect
+
+h1{
+font-family: Arial;
+font-size: 20pt;
+color: blue;
+
+}
+
+o h1 é o seletor que vai modificar o h1 do html
+
+ja o que está entre {} é a declaração, ou seja é a modificação
+
+obs: TODA DECLARAÇÃO EM CSS TEM QUE TER ; NO FINAL
+
+o item antes dos : é chamado de propriedade ja o depois dos : é chamado de valor
+
+nesse caso eu estou dizendo que a familia da fonte vai ser Arial, o tamanho vai ser 20pt(20 pixels) e a cor vai ser Azul
+==================================
+ESTRUTURA BÁSICA DE DOCUMENTO HTML
+==================================
+Para desenvolver em HTML em preciso na primeira linha escrever:
+
+<!DOCTYPE html>
+
+depois eu preciso da abertura e do fechamento da tag html:
+
+<html lang="pt-br">
+       <head>#seria a cabeça, seria a parte do codigo que eu não vejo, mas que tem todas as informações
+              <meta charset="UTF-8"># o utf-o serve para eu pode colocar acentos
+              <meta name="viewport"
+              content="width=device-width,
+              initial-scale=1.0">#basicamente ira definir o limite maximo da cabeça de forma que ela não aumente mesmo usando zoom
+              <title>Documente</title>#aqui teremos o titulo
+
+      </head>#fechamento da cabeça
+      <body>#abertura corpo, aqui é onde tem todo o conteudo do site, conteudo como materia e ect
+	<h1>Olá, Mundo!</h1>
+
+      </body>#fechamento corpo
+</html>
