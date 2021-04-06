@@ -1,0 +1,112 @@
+style = tag basica do css
+==================================
+@charset = determina o chaset de configuração parar a que o estilo externos não tenha problemas com a acentuação da lingua portuguesa, normalmente se coloca "UTF-8"
+==================================
+font-family = define a familia da fonte da tag html
+==================================
+background-color = define a cor do fundo da tag html
+==================================
+color = define a cor da fonte da tag html
+==================================
+font-size = define o tamanho da fonte da tag html
+==================================
+text-align = define a forma de organização do texto:
+
+center = texto centralizado
+
+end = texto alinhado ao fim
+
+justify = texto justificado
+
+left = texto alinhado a esquerda
+
+right = texto alinhado a direita
+
+start = texto alinhado ao inicio
+==================================
+Configurações globais:
+
+* = define uma configuração global
+
+height = define a altura para evitar erros de ajujste
+==================================
+degradê
+
+background-image: radial-gradient = define a forma de um degrade, recebe valores geometricos (circle)
+
+linear-gradient = recebe valores em graus (xdeg) ou comando:
+
+to right = degradê indo para direita
+
+to left = degradê indo para esquerda
+
+to top = degradê indo para cima
+
+to bottom = degradê indo para baixo
+==================================
+width = largura
+==================================
+box-shadow = gera uma sombra com cor personalizavel para o box
+==================================
+padding = espaçamento lateral
+==================================
+margin = dependendo do paramentro ajusta automaticamente a janela (no caso do parametro auto)
+==================================
+border-radius = faz uma borda arredonando o box
+==================================
+text-shadow = gera sombra no texto
+==================================
+height = comprimento
+==================================
+/** Coloando , e depois outra tag eu tenho como ter o mesmo estilo para + de uma tag **/
+==================================
+Tamanho de fontes:
+
+cm = centimentro
+
+mm = milimetro
+
+in = polegada
+
+px = pixles
+
+pt = pontos
+
+pc = paica
+
+em = relativa ao tamanho do M da fonte, normalmente cada 1em é igual a 16 px
+
+ex = relativa ao tamanho do X da fonte
+
+rem = relativa ao tamanho da fonte do body
+
+vw = relativa ao tamanho da largura do monitor
+
+vh = relativa ao tamanho da altura do monitor
+
+% = porcentagem
+==================================
+font-weight = ajusta o peso da fonte, nota que algumas fontes não tem essa opção
+================================== 
+font-style = determina o estilo da fonte
+==================================
+text-decoration = decoração da fonte do texto
+==================================
+@font-face:
+
+@font-face {/* Esse comando serve para determinar uma font externa para o site */
+    font-family: 'Love';/* Nome da fonte family */
+    src: url("fonts/love larry.otf")/* Nesse caso o src url ira pedir o caminho da font */ format('opentype')/* Baseado no formato de arquivo o format deve receber uma configuração especifica(olhe mais em baixo)*/, url("fonts/love larry.ttf")/* Nesse segundo caso estamos carregando a mesma font so que em outro formato */ format('truetype')/* Portanto o format ira receber outro formato como nome*/;
+    font-weight: normal;/* Define o peso da font como normal */
+    font-style: normal;/* Define o estilo da font como normal*/
+}
+
+/*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+*/
+==================================

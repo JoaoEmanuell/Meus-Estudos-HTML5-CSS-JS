@@ -1,0 +1,41 @@
+No visual studio code, ao eu apertar ! e espera 1 segundo, e apertar enter, eu ja irei criar a parte essecial obrigatoria do codigo
+
+==================================
+
+Caso eu esqueça de escrever uma tag a forma mais simples de fazer é:
+
+destacar com o mouse a parte que eu quero colocar a tag
+
+apertar crt + shift + p
+
+apertar enter (ou digitar abb e achar "warp with abbreviation", "quebra de linha com abreviação" apertar enter)
+
+digitar a tag que eu quero colocar, ai ele vai colocar automaticamente
+
+==================================
+
+Facilitar a colocação de itens em lista ordenada:
+
+ol>li*4
+
+basicamente ele ira criar uma lista ordenada com 4 lis esperando para serem preenchidos
+
+==================================
+
+Ir diretamente para a proxima linha:
+
+so usar crt + enter, automaticamente vc vai pra linha de baixo da que vc esta agora (na verdade ele cria outra linha porem ainda sim é util
+
+==================================
+
+Ir diretamente para a linha acima da atual:
+
+so usar crt + shift + enter, automaticamente ele cria uma linha acima da que você está
+
+==================================
+
+Editar varias linhas de uma so vez:
+
+Segure o alt e va clicando extamente onde você quer editar, dessa forma você ira editar varias linhas de codigo, tudo que vc escrever em uma vai aparecer em todas as selecionadas
+==================================
+Alt l + alt o facilita a abertura do live serve
