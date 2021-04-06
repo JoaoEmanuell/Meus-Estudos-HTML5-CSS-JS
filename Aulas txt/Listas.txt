@@ -1,0 +1,59 @@
+Listas Ordenadas:
+
+Listas Ordenadas são listas que tem uma ordem crescente, uma ordem que faz sentido, os tipos de ordem são:
+
+<ol type="">
+
+1 = ordem numerica
+
+A = Ordem alfabetica com letras maisculas
+
+a = Ordem alfabetica com letras minusculas
+
+I = Numeros romanos maisculos
+
+i = Numeros romanos minusculos
+
+obs: A lista ordenada pode começar a partir de um certo numero se usar o parametro, start="inicio", dessa forma a lista começara a contar a partir do numero indicado (caso a lista seja de numeros romanos ele começara a partir do algarismo romano que corresponde ao numero de inicio) caso seja de letra é so indicar o valor numerico da letra (a ordem em que ela aparece no alfabeto)
+
+==================================
+
+Listas não ordenadas:
+
+Listas não ordenadas são listas sem ordem, elas simplismente não tem uma ordem de começo ou fim, por não ter isso a representação é feita de forma diferente:
+
+<ul type="">
+
+disc = desenha um disco completo, é o padrão
+
+circle = desenha um circulo oco no meio
+
+square = desenha um quadrado
+
+Dentro das listas eu tenho o comando <li> ele serve para adicionar items a lista (obs não é obrigatorio fechar o <li> usando </li>)
+
+<ol>
+      <li>Acordar</>
+      <li>Orar
+
+<ul>
+      <li>Tomate</>
+      <li>Queijo
+
+==================================
+
+Listas mistas aninhadas:
+
+Listas mistas são listas que misturam listas ordenadas e listas não ordenadas.
+
+==================================
+
+Listas de definições:
+
+Essas listas são extamente como dicionarios, primeiro temos a lista que é definida como "dl"
+
+dentro da lista temos os termos que são chamados de "dt"
+
+dentro dos termos temos o item que é chamado de "dd"
+
+o dd é chamado de detalhes de descrisção, é ele quem descreve o termo:

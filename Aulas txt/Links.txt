@@ -1,0 +1,105 @@
+hyperlink:
+
+hyperlink são textos que quando clicados te levam a outra pagina, são feitos por meio dos hyperlinks:
+
+Definir um hyperlink:
+
+Para definir um hyper link usa-se a tag "a"
+
+<a href="linkdosite.com">Mensagem que vai receber o link</a>
+
+dessa forma aquela mensagem, quando clicar em cima dela, levara para o link indicado no href
+
+==================================
+Indicar a linguagem do site onde o link ira te redirecionar:
+
+Para facilitar os softwares de tradução e o navegador, você pode indicar qual é o idioma do site onde o link ira te levar, para isso logo apos o href usa-se o comando hreflang:
+
+<a href="linkdosite.com" hrefng="idioma do site">texto </a>
+==================================
+Abir o link na janela atual ou em outra janela:
+
+Essa configuração servira para utilizar caso:
+
+A = Eu queira abrir o site na mesma janela que eu estou
+
+B = Eu queira abrir o site em outra janela
+
+No caso da letra A serve principalmente quando o link leve para um site que pertenca a mim ou para o mesmo site que eu estou
+
+Ja no caso da letra B serve para caso eu queira levar o usuario a um site que não pertença a mim, dessa forma o meu site ainda estára aberto, facilitando ao usuario de voltar ao meu site
+
+Para ambas as situações usa-se o comando target:
+
+Caso eu queira abrir na mesma aba que o usuario está agora, usa-se o comando _self :
+
+<a href="link.com" target ="_self"> mensagem </a>
+
+Caso eu queira abrir em outra aba, usa-se o comando: _blank :
+
+<a href="link.com" target ="_blank"> mensagem </a>
+==================================
+Indicar se o link é meu ou de outros:
+
+Indicar se o link é meu ou de outros é bastante interressante, pois ajuda o mecanismo do google a encontrar o meu site e indicar ele:
+
+O atributo usado nesses caso é chamado de "rel":
+
+O atributo "rel" aceita varios valores:
+
+next = indica que o link é para a proxima parte do documento atual
+
+prev = indica que o link é para a a parte anterior do documento atual
+
+author = indica que o link é para o site do autor do documento atual
+
+external = indica que o link é para outro site que não faz parte do site atual
+
+nofollow = indica que o link é para um site que não faz parte da pesquisa, basicamente um link pago
+
+Exemplos de link interno e externo:
+
+Interno ou local:
+
+<a href="pagina2.html" target="_self" rel="next"> Mensagem </a>
+
+nesse caso eu não precisei informar o link completo, so o direcionamento para a pagina 2
+
+Externo:
+
+<a href="https://linkdosite.com" target="_blank" rel="external"> Mensagem </a>
+
+nesse caso eu precisei colocar a URL completa incluindo o protocolo http ou https
+
+==================================
+Downloads:
+
+Para indicar downloads eu tenho 3 tags obrigatorias:
+
+href = recebe o link de download
+
+download = recebe o nome do arquivo
+
+type = recebe o tipo de arquivo
+
+<a href="arquivos/meulivro.pdf" download="meulivro.pdf" type="application/pdf"> Mensagem 
+</a>
+
+Medidas types usadas no dia-a-dia:
+
+application/zip
+text/html
+text/css
+text/javascript
+video/mp4
+video/h264
+video/JPEG
+audio/aac
+audio/mpeg
+font/ttf
+image/jpeg
+image/png
+
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+tem todas as tags

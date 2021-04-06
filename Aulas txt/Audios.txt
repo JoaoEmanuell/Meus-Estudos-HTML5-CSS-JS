@@ -1,0 +1,41 @@
+Audio:
+
+Para inserir audio utilizamos a tag <audio>:
+
+<audio preload="metadata" controls autoplay loop>
+
+o atributo "preload" indica se o audio sera pré-carregado ou não, ele aceita 3 valores:
+
+metadata = vai carregar apenas as informações sobre o arquivo (tamanho,
+tempo, informações de direitos, etc)
+
+none = so vai carregar se o usuario clicar no botão do play ou se um script iniciar a reprodução
+
+auto = (padrão) vai carregar o audio inteiro mesmo se o usuario nunca apertar o play
+
+o atributo "controls" apresentar o player na tela, caso ele não seja colocado o controle não aparecera para o usuario e portanto ele não podera ser reproduzido
+
+o atributo "autoplay" se inserido inicia a reprodução do audio automaticamente quando a pagina for carregada
+
+o atributo "loop" faz com que ao fim do audio ele seja repetido eternamente
+
+Dentro da tag <audio> colocamos varios <source> com formatos diferentes do mesmo audio.
+
+<audio preload="metadata" controls autoplay loop>
+         <source src="audio.mp3" type="audio/mpeg">
+         <source src="audio.ogg" type="audio/ogg">
+         <source src="audio.wav" type="image/wav">
+
+src = recebe o nome do arquivo e a extensão
+
+type = recebe o media type do arquivo
+
+caso o navegador não suporte o audio podemos colocar para o usuario baixar ele:
+
+<audio preload="metadata" controls autoplay loop>
+         <source src="audio.mp3" type="audio/mpeg">
+         <source src="audio.ogg" type="audio/ogg">
+         <source src="audio.wav" type="image/wav">
+         <p>Seu navegador não suporta áudio <a href="audio.mp3" download="audio.mp3" type="audio/mpeg"></a></p></audio>
+
+dessa forma caso todos falhem ele ira baixar o audio

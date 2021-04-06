@@ -1,0 +1,15 @@
+Para utilizar os simbolos, eu tenho que usar: 
+
+&cod; <!-- No lugar do cod eu coloco o codigo do simbolo
+
+==================================
+
+&reg; <!--Reg faz o simbolo de R circulado--> ®
+
+==================================
+
+&copy; <!--Copy faz o simbolo de copiryt--> ©
+
+==================================
+
+&trade; <!--Trade faz o simbolo Trade (marca registrada)--> ™

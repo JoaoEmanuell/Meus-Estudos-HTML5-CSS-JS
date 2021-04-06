@@ -1,0 +1,3 @@
+Para procurar emojis eu posso ir no site da emojipedia e copiar o codigo hexadecimal do emoji que eu quero usar, antes do codigo do emoji eu coloco &#x e ai coloco o codigo do emoji
+
+&#x1F596; <!--Faz o emoji 🖖-->
