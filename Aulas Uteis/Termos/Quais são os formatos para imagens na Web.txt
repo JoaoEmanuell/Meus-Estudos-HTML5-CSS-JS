@@ -1,0 +1,5 @@
+Os formatos principais usados na web são, o .jpeg e o.png
+
+PNG = Sempre que eu quiser usar imagens com o fundo transparente e com uma qualidade melhor
+
+JPEG = Sempre que eu quiser uma imagens mais compactada, para otimizar o tamanho
