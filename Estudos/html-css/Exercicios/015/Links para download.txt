@@ -1,0 +1,11 @@
+Nessa aula aprendemos a colocar links para download:
+
+<a href="/livro/Livro Guanabara.pdf" download="Livro Guanabara" type="application/pdf">Baixar livro em PDF</a>
+
+o href define o link do download, o lugar onde esta o arquivo
+
+download define o nome do arquivo
+
+type define o tipo de arquivo 
+
+em https://www.iana.org/assignments/media-types/media-types.xhtml tem todos os tipos de arquivo para colocar no type

@@ -1,0 +1,18 @@
+Semantica é a forma de escrever e não a função, muitas coisas que funcionavam no html4 funcionam hoje em dia no html5 porem não quer dizer que é certo utilizar elas, elas acabaram se tornando obsoletas, o objetivo do html5 é focar na sematica, na forma que o codigo é escrito, o CSS serve para modificar o codigo de texto do html5, coisa que antigamente não acontecia pois antigamente quem modificava o html4 era o html4
+
+==================================
+cod:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Semântica</title>
+</head>
+<body>
+    <p>Eu moro na <address>Rua Deputado Sostenes Pedro - João Pessoa - PB</address></p>
+</body>
+</html>

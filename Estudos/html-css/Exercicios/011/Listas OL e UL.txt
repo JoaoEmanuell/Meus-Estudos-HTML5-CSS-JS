@@ -1,0 +1,73 @@
+Nessa aula aprendemos sobre:
+
+Listas Ordenadas:
+
+Listas Ordenadas são listas que tem uma ordem crescente, uma ordem que faz sentido, os tipos de ordem são:
+
+<ol type="">
+
+1 = ordem numerica
+
+A = Ordem alfabetica com letras maisculas
+
+a = Ordem alfabetica com letras minusculas
+
+I = Numeros romanos maisculos
+
+i = Numeros romanos minusculos
+
+obs: A lista ordenada pode começar a partir de um certo numero se usar o parametro, start="inicio", dessa forma a lista começara a contar a partir do numero indicado (caso a lista seja de numeros romanos ele começara a partir do algarismo romano que corresponde ao numero de inicio) caso seja de letra é so indicar o valor numerico da letra (a ordem em que ela aparece no alfabeto)
+
+Listas não ordenadas:
+
+Listas não ordenadas são listas sem ordem, elas simplismente não tem uma ordem de começo ou fim, por não ter isso a representação é feita de forma diferente:
+
+<ul type="">
+
+disc = desenha um disco completo, é o padrão
+
+circle = desenha um circulo oco no meio
+
+square = desenha um quadrado
+
+= = = =  == = = = == = = = = == = = = = == =
+
+Dentro das listas eu tenho o comando <li> ele serve para adicionar items a lista (obs não é obrigatorio fechar o <li> usando </li>)
+
+<ol>
+      <li>Acordar</>
+      <li>Orar
+
+<ul>
+      <li>Tomate</>
+      <li>Queijo
+
+==================================
+
+cod:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--Tipos: 1 A a I i -->
+        <li>Acordar</li>
+        <li>Orar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc"> <!-- Tipos: disc circle square -->
+        <li>Comprar pão</li>
+        <li>Ir para escola</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,31 @@
+img = ao usar a tag img, eu posso colocar imagens
+
+img src="nome da imagem e .exensão" alt="explicação sobre a imagem"
+
+para colocar imagens externas é so colocar entre "" o link direto da imagem
+
+obs: para evitar ter que ficar colocando o nome da imagem, so coloque o cursor no meio das aspas, clique, e aperte crt + espaço, logo vai aparecer as imagens na pasta onde esta salvo o arquivo html
+==================================
+
+Codigo:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Colocando imagens em um site</h1>
+    <hr>
+    <p>Vamos aprender a colocar imagem no site :)</p>
+    <p>Abaixo você ira ver uma imagem que está na mesma pasta desse arquivo</p>
+    <img src="html5 original logo.png" alt="Logo HTML5">
+    <p>Podemos tambem carregar imagens que estão em sub pastas</p>
+    <img src="imagens/css3 original logo 255.png" alt="logo css3">
+    <p>Tambem podemos carregar imagens externas</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png">
+</body>
+</html>

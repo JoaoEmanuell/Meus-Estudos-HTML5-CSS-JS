@@ -1,0 +1,27 @@
+Negrito (b) e Italico (i) são tags não semanticas, elas so alteram a forma do texto, elas vem desde o HTML4 portanto no futuro há chance delas se tornarem obsoletas.
+
+Forte (strong) e ênfase (em) são tags semanticas, para o HTML5 elas tem siginificado, as funções delas são a mesma do negrito (b) e do italico (i), elas são tags extremamente novas, portanto o recomendado para quando eu quiser uma parte do meu site de forma mais destacada eu utilizar a tag strong e quando eu quiser dar ênfase a alguma coisa eu usar a tag em
+
+==================================
+
+cod:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Negrito e Itálico</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase, temos um <b>termo em negrito </b>usando a tag &lt;b&gt; (não semantica)</p>
+    <p>Nesse frase, temos um <strong>termo em destaque </strong>usando a tag &lt;strong&gt; (semantica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em italico</i> usando a tag &lt;i&gt; (não semantica)</p>
+    <p>Nessa frase, temos um <em>termo em Ênfase</em> usando a tag &lt;em&gt; (semantica)</p>
+</body>
+</html>

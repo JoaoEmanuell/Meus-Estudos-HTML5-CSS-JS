@@ -1,0 +1,111 @@
+Nessa aula aprendemos sobre:
+
+Listas mistas aninhadas:
+
+Listas mistas são listas que misturam listas ordenadas e listas não ordenadas.
+
+<ul>
+        <li>Nitendo 64
+            <ol>
+                <li>Zelda</li>
+                <ul>
+                    <li>Ocarina of Time</li>
+                    <li>Majoras Mask</li>
+                </ul>
+            </ol>
+        </li>
+    </ul>
+    <ul>
+        <li>Game cube</li>
+        <ol>
+            <li>Zelda</li>
+            <ul>
+                <li>Twilghit Princess</li>
+                <li>The Windwaker</li>
+            </ul>
+        </ol>
+    </ul>
+    <ul>
+        <li>PS2</li>
+        <ol>
+            <li>GOD OF WAR</li>
+            <ul>
+                <li>God of war I</li>
+                <li>God of war II</li>
+            </ul>
+            <li>Need for speed undergrounds</li>
+        </ol>
+    </ul>
+
+essa lista tem lista ul e listas ol, alem dos intens da listas
+
+==================================
+
+Listas de definições:
+
+Essas listas são extamente como dicionarios, primeiro temos a lista que é definida como "dl"
+
+dentro da lista temos os termos que são chamados de "dt"
+
+dentro dos termos temos o item que é chamado de "dd"
+
+o dd é chamado de detalhes de descrisção, é ele quem descreve o termo:
+
+<dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do contéudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de progamação para a criação de interatividade de um site</dd>
+    </dl>
+
+==================================
+
+cod:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!--Tipos: 1 A a I i -->
+        <li>Acordar</li>
+        <li>Orar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc"> <!-- Tipos: disc circle square -->
+        <li>Comprar pão</li>
+        <li>Ir para escola</li>
+    </ul>
+    <h2>Minhas linguagems favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ul type="square">
+            <li>Python</li>
+        </ul>
+        <li>Novas</li>
+        <ul type="square">
+            <li>JavaScript</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt><abbr title="HyperText Markup Language">HTML</abbr></dt>
+        <dd>Linguagem de marcação para a criação do contéudo de um site</dd>
+        <dt><abbr title="Cascading Style Sheets">CSS</abbr></dt>
+        <dd>Linguagem de marcação para a criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de progamação para a criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>

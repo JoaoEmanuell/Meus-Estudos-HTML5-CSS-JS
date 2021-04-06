@@ -1,0 +1,16 @@
+@charset "UTF-8";/* Linha de comando que da compatibilidade com caracteres da lingua portuguesa */
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: green;
+}
+p {
+    text-align: justify;
+}

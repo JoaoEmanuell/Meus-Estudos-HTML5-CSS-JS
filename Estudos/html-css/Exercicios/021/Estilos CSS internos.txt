@@ -1,0 +1,35 @@
+internal = que fica na head e modifca todas as tags definidas dentro dela
+
+======== = = == = = ========== == = = = 
+internal:
+
+Para utilizar-lo va para a head do documento HTML.
+
+Abaixo do titulo (isso é opcional) crie uma tag chamada <style>
+
+dentro da tag <style> você coloca a tag que você quer modificar e coloca as configurações da tag:
+
+<style>
+          body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: lightcyan;
+                    color: blue
+           }
+           h1 {
+                    color: green;
+                 }
+          </style>
+
+explicando:
+
+primeiro ele ira modifcar a tag "body", as { servem para delimitar a abertura e o fechamento das tags de modficação
+
+os ; servem para indicar o fim da configuração
+
+dento da tag "body" ele ira definir a familia das fontes de: arial, helvetica, sans-serif
+
+cor de fundo: ciano claro
+
+cor da fonte : azul
+
+depois ele ira modifcar a tag h1 colocando a cor como verde

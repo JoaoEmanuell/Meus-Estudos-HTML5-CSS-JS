@@ -1,0 +1,20 @@
+ = = = = = = = = = = = = ==  = = = == = = = = 
+external:
+
+ja no caso do modo external, você vai abaixo da tag titulo e digita link:css
+
+ele ira criar uma tag contendo rel="stylesheet" href="style.css"
+
+caso não exista o arquivo style.css na pasta
+
+clicando em cima do texto enquanto segura crtl o VSCode vai perguntar se vc quer que ele crie o arquivo para vc, clique em sim ou ok e ele ira criar o arquivo automaticamente
+
+dessa forma toda vez que for crirar um novo HMTL é so usar a tag link e colocar o endereço do arquivo css, assim você ira ter configurações gerais
+
+dentro do arquivo css você pode colocar a tag 
+
+@charset "UTF-8";
+
+para não haver incompatibilidade com os caracteres
+
+agora é so colocar as tags de html e configurar elas
