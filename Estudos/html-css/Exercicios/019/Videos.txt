@@ -1,0 +1,59 @@
+Vídeos:
+
+Para inserir videos que estão no nosso propio servidor, usa-se a tag <video>:
+
+<video width="600" poster="thumb.jpg" controls autoplay>
+
+width = indica a largura que o video vai ter na tela
+
+poster = indica uma imagem que vai aparecer como capa enquanto usuario não aperta o play
+
+controls = vai exibir os controles na parte inferior do video, por padrão eles não aparecem, mas se colocar a palavra "controls" eles iram aparecer
+
+autoplay = assim que a pagina for carregada o video sera reproduzido
+
+dentro da tag video teremos a tag <source> para carregamente dos arquivos:
+
+<video width="600" poster="thumb.jpg" controls autoplay>
+         <source src="video.webm" type="video/webm">
+         <source src="video.mp4" type="video/mp4">
+         <source src="video.ogv" type="video/ogg">
+         <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+</video>
+
+caso nenhum dos formatos seja carregado a imagem de erro sera exibida
+
+Formatos compativeis com navegadores:
+
+Edge = .mp4   .m4v
+Safari = .mp4   .m4v
+Chrome = .mp4   .m4v   .webm   .ogv
+Firefox = .webm   .ogv
+Opera = .webm   .ogv
+
+Um otimo conversor open source e gratuito se chama Handbrake
+
+https://handbrake.fr/downloads.php
+
+==================================
+Desvantagens de hospedar videos dentro do seu site:
+
+Por videos serem pesados, caso o seu site tenha muitos acessos isso pode fazer ele ficar lento e consumir sua franquia de hospedagem caso ela não seja ilimitada, uma forma de burlar isso é hospedar seu video em plataformas externas:
+
+Youtube:
+
+Uma otima opção, ele é leve, rapido, gratuito, porem por padrão os videos devem ser publicos, o que é uma desvantagem caso você esteja fazendo algo por demanda
+
+Vimeo:
+
+Resolve o problema do youtube ja que permite limitar quem vai poder ver o video, o problema é que ele pode apresentar pequenos travementos, tem que ser pago uma taxa anual.
+
+Para incorporar videos do youtube no site:
+
+Va no video desejado, clique em compartilhar, va em Incorporar, copie todo o codigo html que ira ser aberto em uma pop-up, e cole no seu codigo, dessa forma você  tera o video.
+
+Ja no Vimeo:
+
+va nos seu video hospedados, escolha o video e va nos três pontinhos, incoporação, codigo de incorporação, pronto agora é so colar no seu codigo do site
+
+obs = para carregar videos que estão em outro site usa-se a tag <iframe> ja para o nosso site usa-se a tag <video>

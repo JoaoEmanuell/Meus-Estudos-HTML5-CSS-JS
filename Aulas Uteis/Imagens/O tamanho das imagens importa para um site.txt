@@ -1,0 +1,1 @@
+Sim, o tamanho faz toda a diferença, quanto menor a dimensão da imagen e depedendo do formato de compactação dela, o arquivo fica menor, é sempre importante manter o arquivo original, depois é so redimensionar ele para colocar no site

@@ -1,0 +1,50 @@
+Tags:
+
+<!-- = Comentarios no html
+
+==================================
+
+&cod; = comando base para colocar simbolos, no lugar do cod vc coloca o codigo do simbolo
+
+&reg; = ®
+
+Obs: Para mais informações sobre simbolos, vc pode ir para o txt de simbolos
+
+==================================
+
+Emojis:
+
+Para procurar emojis eu posso ir no site da emojipedia e copiar o codigo hexadecimal do emoji que eu quero usar, antes do codigo do emoji eu coloco &#x e ai coloco o codigo do emoji
+
+&#x1F596; <!--Faz o emoji 🖖-->
+
+==================================
+
+Codigo: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Símbolos e Emoji</title>
+</head>
+<body>
+    <h1>Símbolos e Emoji</h1><!--Assim eu escrevo um comentario-->
+    <hr>
+    <p>Aprendendo a usar Símbolos e Emoji em HTML</p>
+    <hr>
+    <p>Vamos adicionar alguns símbolos especiais</p>
+    &reg; <br> <!--Reg faz o simbolo de R circulado-->
+    &copy; <br> <!--Copy faz o simbolo de copiryt-->
+    &trade; <br> <!--Trade faz o simbolo Trade (marca registrada)-->
+    <br>
+    <p>Vamos adicionar alguns emojis:
+        <br>
+        &#x1F596;
+        <br>
+        &#x1F97A;
+    </p>
+</body>
+</html>

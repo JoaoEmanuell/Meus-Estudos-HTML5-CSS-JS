@@ -1,0 +1,33 @@
+Imagens dinamicas:
+
+Para facilitar a exibição e carregamento de imagens em diferentes dispositivos, usa-se o conceito de imagens dinamicas.
+
+Cria-se arquivos de imagens com tamanhos especificos para que sejam carregados baseados no tamanho da tela do dispositivo
+
+Para carregar as imagens baseadas na tela usa-se as tags <picture> e <source>:
+
+Primeiramente dentro da tag <picture> coloca-se a imagem com a maior resolução:
+
+(foto-g possui 1000x1000px)
+
+<picture>
+              <img src="foto-g.png" alt="A imagem flexível funciona">
+</picture>
+
+O problema vai começar a surgir quando a janela do navegador chegar perto dos
+1000 pixels de largura, pois a foto não vai mais caber lá, adicionando uma linha de codigo que vai carregar outra imagem caso a resolução seja de 1050px, dessa forma não ira ocorre nenhum bug:
+
+<picture>
+              <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+              <img src="foto-g.png" alt="A imagem flexível funciona">
+</picture>
+
+na tag source indicamos:
+
+media = tamanho maximo da pagina, se ficar abaixo do tamanho indicado
+
+srcest = nome da imagem
+
+type = media type da imagem
+
+obs: é importante organizar os <source> a melhor forma é deixar os max-width sendo do menor para o maior, o maior sendo a imagem com maior qualidade

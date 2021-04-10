@@ -1,0 +1,92 @@
+As formatações aprendidas nessa aula foi:
+
+MARCADOR
+
+mark = usadando a tag mark eu marco o pedaço desejado do texto, para alterar a cor do mark eu tenho 2 opçoes:
+
+<body>
+            <mark style="background-color:                  cor;">texto</mark>
+
+ou
+
+<head>
+           <style>
+        mark{
+            background-color: cyan;
+        }
+    </style>
+
+ambos os casos usam CSS, no primeiro ele so altera a tag indicada e no outro ele altera tudo
+==================================
+GRANDE:
+
+big = essa tag está obsoleta, ela faz com que o texto indicado fique um pouco maior do que o convencional
+==================================
+PEQUENO:
+
+small = essa tag não está obsoleta, ela faz com que o texto fique menor do que o convencional
+==================================
+DELETADO:
+
+del = essa tag faz com que o texto colocado fique de forma riscada, você ainda pode ler ele mas é para desconsiderar
+==================================
+INSERIDO
+
+ins = essa tag faz com que o texto fique sublinhado, essa tag é semantica
+==================================
+SUBLINHADO
+
+u = essa tag faz o mesmo da ins porem essa tag não é semantica
+==================================
+SOBRESCRITO
+
+sup = essa tag faz com que um pedaço do texto suba de altura, fique uma altura acima das outras letras
+==================================
+SUBSCRITO
+
+sub = essa tag faz com que um pedaço do texto fique uma altura abaixo do resto, ele vai ficar abaixo das outras letras
+==================================
+
+Como ja foi explicado algumas são semanticas e outra alteram apenas o texto
+==================================
+
+cod:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formatação de texto</title>
+    <style>
+        mark{
+            background-color: cyan;
+        }
+    </style><!--Isso aqui é CSS, basicamente ele ira modificar o estilo de mark para todas as tags mark com a cor ciano, ou seja todas as tags de marcador terá a cor ciano-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase, temos um <b>termo em negrito </b>usando a tag &lt;b&gt; (não semantica)</p>
+    <p>Nesse frase, temos um <strong>termo em destaque </strong>usando a tag &lt;strong&gt; (semantica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em italico</i> usando a tag &lt;i&gt; (não semantica)</p>
+    <p>Nessa frase, temos um <em>termo em Ênfase</em> usando a tag &lt;em&gt; (semantica)</p>
+    <h2>Texto Marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>E no outro paragrafo, temos <mark>outro texto marcado</mark> no final</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+    <p>Existe também o <u>sublinhado</u> com a tag &lt;u&gt; (Não semantica)</p>
+    <h2>Texto Sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto Subcrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

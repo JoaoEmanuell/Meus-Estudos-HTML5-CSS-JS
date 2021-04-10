@@ -1,0 +1,13 @@
+Nessa aula aprendemos sobre links internos
+
+Links internos são hyperlinks que nos direcionam para outra pagina que nós pertence.
+
+Nos links internos não ha nesscidade de abrir uma nova guia.
+
+Nos links internos eu posso simplsimente colocar o diretorio e o nome do arquivo que contem a pagina indicada
+
+Rels link interno:
+
+rel="next" = indica que o link é para a proxima parte do documento atual
+
+rel="prev" = indica que o link é para a parte anterior do documento atual

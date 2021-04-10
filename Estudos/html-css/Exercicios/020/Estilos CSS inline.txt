@@ -1,0 +1,8 @@
+modifca a linha onde o css foi colocado, esse so deve ser usado caso você precise de uma modificação pequena em um lugar pontual
+
+ = = = == = = = = = = = = = = = = = = = == = 
+inline
+
+o inline modifca apenas aquela tag html, essa modficação sera simples e subistituira qualquer uma ja feita, para modificar é so usar:
+
+style e a configuração.

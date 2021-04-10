@@ -1,0 +1,32 @@
+@charset "UTF-8";/* Compatibilidade com caracteres da lingua portuguesa */
+
+@font-face {/* Esse comando serve para determinar uma font externa para o site */
+    font-family: 'Love';/* Nome da fonte family */
+    src: url("fonts/love larry.otf")/* Nesse caso o src url ira pedir o caminho da font */ format('opentype')/* Baseado no formato de arquivo o format deve receber uma configuração especifica(olhe mais em baixo)*/, url("fonts/love larry.ttf")/* Nesse segundo caso estamos carregando a mesma font so que em outro formato */ format('truetype')/* Portanto o format ira receber outro formato como nome*/;
+    font-weight: normal;/* Define o peso da font como normal */
+    font-style: normal;/* Define o estilo da font como normal*/
+}
+
+/*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    font-family: 'Love', Arial, Helvetica, sans-serif;/* Note que aqui colocamos a font em primeiro, pois caso de algum bug desconhecido ele ainda tera outras opções de fonts para carregar*/
+    font-size: 3em;
+    font-weight: normal;/* Mesmo que o peso esteja definido como normal ainda sim precisamos colocar aqui, caso contrario ele acaba fazendo a font ser negrito*/
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

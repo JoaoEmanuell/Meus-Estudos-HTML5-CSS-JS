@@ -1,0 +1,332 @@
+DOCTYPE = Define o conteudo (html)
+==================================
+meta = configurações geral
+==================================
+title = Titulo da pagina (nome da pagina)
+
+<title>Parágrafos</title>
+==================================
+h1 = Titulo, ou seja um nome grande
+
+<h1>Parágrafos e quebras de linha</h1>
+==================================
+hr = desenha uma linha horizontal
+
+<hr>
+==================================
+p = Paragrafo
+
+<p>Você pode escrever
+        um parágrafo de
+        qualquer jeito.
+        Basta colocar tudo
+        no meio do par de tags
+        p e /p
+    </p>
+==================================
+br = Faz uma quebra de linha no lugar indicado:
+
+<p>Se precisar quebrar o texto em algum lugar específico <br> como esse, você pode usar a tag br.</p>
+==================================
+Escrever < e > no texto:
+
+< = &lt; 
+
+> = &gt;
+==================================
+Comentario:
+
+<!-- Usando essa tag eu posso escrever comentarios :), é so escrver < ! - - tudo junto
+==================================
+Imagem:
+
+img = ao usar a tag img, eu posso colocar imagens
+
+img src="nome da imagem e .exensão" alt="explicação sobre a imagem"
+
+para colocar imagens externas é so colocar entre "" o link direto da imagem
+
+obs: para evitar ter que ficar colocando o nome da imagem, so coloque o cursor no meio das aspas, clique, e aperte crt + espaço, logo vai aparecer as imagens na pasta onde esta salvo o arquivo html
+==================================
+ICONES:
+
+link:favicon = usando esse comando eu crio a base para colocar o icone, logo apos href= eu coloco o nome do icon (aperte crt + espaço) coloque o nome do icon no meio das asspas, ai vc tera o link
+
+obs: para evitar bugs sempre coloque o arquivo .ico
+==================================
+HIERAQUIA DE TEXTOS:
+
+A hierquia começa no h1 e vai ate h6, dentro de cada h eu posso ter quantos mini h (que correspondem a h + 1) eu quiser
+==================================
+Lorem:
+
+lorem = lorem é usado no meio dos paragrafos para gerar textos aleatorios
+
+==================================
+ENDEREÇO DESTAQUE
+
+address = serve para destacar o endereço, usa address em um paragrafo na parte em que eu quero destacar o endereço
+==================================
+NEGRITO
+
+b = usando a tag b eu deixo o texto em negrito (de forma não semantica, sem siginificado)
+==================================
+FORTE
+
+strong = usando a tag strong eu deixo o texto de uma forma forte (basicamente o mesmo que negrito) de uma forma semantica (com siginificado)
+==================================
+ITÁLICO
+
+i = usando a tag i eu deixo o texto em italico (de forma não semantica, sem siginificado)
+==================================
+ÊNFASE
+
+em = usando a tag em eu deixo o texto em ênfase (basicamente o mesmo que itálico) de uma forma semantica (com siginificado)
+==================================
+MARCADOR
+
+mark = usadando a tag mark eu marco o pedaço desejado do texto, para alterar a cor do mark eu tenho 2 opçoes:
+
+<body>
+            <mark style="background-color:                  cor;">texto</mark>
+
+ou
+
+<head>
+           <style>
+        mark{
+            background-color: cyan;
+        }
+    </style>
+
+ambos os casos usam CSS, no primeiro ele so altera a tag indicada e no outro ele altera tudo
+==================================
+GRANDE:
+
+big = essa tag está obsoleta, ela faz com que o texto indicado fique um pouco maior do que o convencional
+==================================
+PEQUENO:
+
+small = essa tag não está obsoleta, ela faz com que o texto fique menor do que o convencional
+==================================
+DELETADO:
+
+del = essa tag faz com que o texto colocado fique de forma riscada, você ainda pode ler ele mas é para desconsiderar
+==================================
+INSERIDO
+
+ins = essa tag faz com que o texto fique sublinhado, essa tag é semantica
+==================================
+SUBLINHADO
+
+u = essa tag faz o mesmo da ins porem essa tag não é semantica
+==================================
+SOBRESCRITO
+
+sup = essa tag faz com que um pedaço do texto suba de altura, fique uma altura acima das outras letras
+==================================
+SUBSCRITO
+
+sub = essa tag faz com que um pedaço do texto fique uma altura abaixo do resto, ele vai ficar abaixo das outras letras
+==================================
+CODIGO FONTE:
+
+code = essa tag serve para deixar o mesmo espaçamento lateral entre as letras (letras mono-espaçadas), fica mais facil de ler
+==================================
+MOSTRAR EXATAMENTE O QUE ESTA ESCRITO NO CODIGO:
+
+pre = essa tag faz com que exiba exatamente da forma que o texto esta escrito no codigo (caso queira ajeitar a indetação, selecione a parte de texto e aperte shift + tab para mover um tab para esquerda, caso queira fazer para a direita é so usar o tab normal)
+==================================
+CITAÇÃO SIMPLES:
+
+q = essa tag coloca o texto entre "aspas duplas", serve para fazer uma fala de citação
+==================================
+CITAÇÃO COMPLETA:
+
+blockquote = essa tag permite que você coloque um link oculto para os indetificadores do google exibiriem sua pagina com maior facilidade
+==================================
+ABREVIAÇÕES:
+
+abbr = Serve para exibir o nome completo de uma abreviação se eu colocar o mouse em cima da abreviação
+==================================
+TEXTO INVERTIDO:
+
+bdo = essa tag ira fazer o texto ficar invertido se estiver configurada na função "rtl" (right to left)
+==================================
+LISTAS:
+                               --------
+LISTAS ORDENADAS
+
+ol = Cria uma lista ordenada, tipos:
+1 = ordem numerica
+
+A = Ordem alfabetica com letras maisculas
+
+a = Ordem alfabetica com letras minusculas
+
+I = Numeros romanos maisculos
+
+i = Numeros romanos minusculos
+
+obs: A lista ordenada pode começar a partir de um certo numero se usar o parametro, start="inicio", dessa forma a lista começara a contar a partir do numero indicado (caso a lista seja de numeros romanos ele começara a partir do algarismo romano que corresponde ao numero de inicio) caso seja de letra é so indicar o valor numerico da letra (a ordem em que ela aparece no alfabeto)
+                               --------
+LISTAS NÃO ORDENADAS
+
+ul = Cria uma lista não ordenada, tipos:
+
+disc = desenha um disco completo, é o padrão
+
+circle = desenha um circulo oco no meio
+
+square = desenha um quadrado
+
+LISTAS DEFINIDAS (DICIONARIOS)
+
+dl = cria a lista definida
+
+dt = termo da lista, é o que é mais destacado
+
+dd = descrição do termo, texto que compõe o termo
+==================================
+LINKS:
+
+a = tag de hyper link, o paramentro href deve ser peenchido com o link do site
+
+target = tag que fica dentro da tag "a", serve para indicar como o outro site sera executado:
+
+target="_self" = tag padrão, o site ira abir na mesma aba do seu site
+
+target="_blank" = essa tag faz com que o site abra em outra aba ao inves da atual
+
+rel = indica informaçoes sobre o link, se ele pertence a você, se ele vai te levar para proxima pagina ou anterior:
+
+rel="next" = indica que o link é para a proxima parte do documento atual
+
+rel="prev" = indica que o link é para a parte anterior do documento atual
+
+rel="author" = indica que o link é para o site do autor do documento atual
+
+rel="external" = indica que o link é para outro site que não faz parte do site atual
+
+rel="nofollow" = indica que o link é para um site que não faz parte da pesquisa, basicamente um link pago
+
+downloads:
+
+href = recebe o link do download
+
+download = recebe o nome do arquivo
+
+type = recebe o tipo de arquivo
+==================================
+Imagens dinamicas:
+
+picture = ira indicar imagem dinamica
+
+source = recebe três parametros
+
+media="(max-width = recebe o tamanho maximo da pagina, caso a pagina esteja abaixo do tamanho maximo ele ira carregar essa imagem
+
+srcest = recebe o nome da imagem
+
+type = media type da imagem
+==================================
+
+Audio:
+
+audio = essa tag serve para carregar audios, ela recebe três paraemetros
+
+   preload = preload tem três parametros:
+
+      metadata = carrega informações do arquivo
+
+      none = so vai carregar se o audio for reproduzido
+
+      auto = carrega o audio mesmo se o usuario não clicar no play
+
+controls = caso não seja colocado o audio não aparecera para o usuario
+
+autoplay = faz o audio ser reproduzido automaticamente
+
+loop = faz com que o audio fique em loop apos o seu fim
+
+ = =  = =
+
+source dentro da tag audio serve para indicar o arquivo e o tipo dele:
+
+src = nome do arquivo
+
+type = media type do arquivo
+
+é sempre bom colocar + de um tipo de arquivo diferente para o mesmo audio, dessa forma mesmo de der erro no primeiro ele ainda ira reproduzir, caso nenhum funcione é possivel exibir um paragrafo de erro e colocar o audio para download:
+
+         <p>Seu navegador não suporta áudio <a href="audio.mp3" download="audio.mp3" type="audio/mpeg"></a></p></audio>
+==================================
+
+Videos:
+
+videos no nosso servidor:
+
+video = tag video que recebe 4 valores:
+
+   width = tamanho que o video vai ter na tela
+
+   poster = imagem que aparece como capa
+
+   controls = controles da parte inferior do    video
+
+   autoplay = video reproduz    automaticamente caso a pagina carregue
+
+= = = = 
+
+Source em videos:
+
+Assim como os audios é importante ter + de um arquivo diferente de video para carregar
+
+source = recebe 2 parametros
+
+   src = nome arquivo de video
+
+   type = tipo de arquivo
+
+lembrando que cada navegador suporta tipos de arquivos diferentes:
+
+Edge = .mp4   .m4v
+Safari = .mp4   .m4v
+Chrome = .mp4   .m4v   .webm   .ogv
+Firefox = .webm   .ogv
+Opera = .webm   .ogv
+
+ = = = = == 
+
+Videos de outro site:
+
+youtube:
+
+Va no video desejado, clique em compartilhar, va em Incorporar, copie todo o codigo html que ira ser aberto em uma pop-up, e cole no seu codigo, dessa forma você  tera o video.
+
+vimeo:
+
+va nos seu video hospedados, escolha o video e va nos três pontinhos, incoporação, codigo de incorporação, pronto agora é so colar no seu codigo do site
+
+obs = para carregar videos que estão em outro site usa-se a tag <iframe> ja para o nosso site usa-se a tag <video>
+==================================
+
+main = semelhante ao box
+
+==================================
+
+div = cria uma box
+
+==================================
+
+header = uma cabeça para colocar o titulo
+
+==================================
+
+section = seção principal onde você vai alterar
+
+==================================
+
+footer = seção de rodapé, onde normalmente, se coloca notas, copright ect
+
+==================================

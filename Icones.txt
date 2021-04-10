@@ -1,0 +1,15 @@
+Favicon é o icone do site, o icone que carrega na aba
+
+Sites para baixar, fazer ou converter seu propio ico:
+
+Baixar: IconArchive
+
+fazer: favicon.cc
+
+converter: favicon.io
+
+Para colocar o icone no site, vc vai na parte da cabeça e digita link, ai acha o link:favicon:
+
+link rel="shortcut icon" href="html5 icone.ico" type="image/x-icon">
+
+na area de href vc coloca o nome do arquivo (aperta crt + espaço para abrir mais rapido), dessa forma ira carregar um icone
