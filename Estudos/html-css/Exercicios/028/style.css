@@ -20,5 +20,5 @@ h2{
 
 p{
     text-align: justify;
-    
+    text-indent: 30px;/* Text indent serve para fazer uma identação dentro do texto */
 }
