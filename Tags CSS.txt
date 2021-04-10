@@ -110,3 +110,7 @@ text-decoration = decoração da fonte do texto
     - svg
 */
 ==================================
+
+text-ident = Faz uma identação no texto, util para paragrafos
+
+==================================
