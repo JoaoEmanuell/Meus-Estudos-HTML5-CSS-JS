@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+
+    Tudo que em HTML é ID, em CSS vira # (so pode ter 1 elemento)
+    Tudo que em HTML é CLASS, em CSS vira . (pode ter mais de um elemento)
+
+*/
+
+body{
+    background-color: #634AED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #6dabfc;
+}
+
+h2{
+    color:#FA417F;
+}
+
+.Principal {
+    color: #36FAF8;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.basico {
+    color: yellow
+}
