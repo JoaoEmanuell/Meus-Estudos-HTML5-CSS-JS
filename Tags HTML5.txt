@@ -330,3 +330,11 @@ section = seção principal onde você vai alterar
 footer = seção de rodapé, onde normalmente, se coloca notas, copright ect
 
 ==================================
+
+id = determina a id de uma tag, lembrando que so pode haver uma tag com o mesmo id por documento
+
+==================================
+
+class = determina a classe de uma tag, a class diferente do id pode existir para varios elementos
+
+==================================

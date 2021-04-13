@@ -114,3 +114,9 @@ text-decoration = decoração da fonte do texto
 text-ident = Faz uma identação no texto, util para paragrafos
 
 ==================================
+
+tag_html#id = modifica a tag que possui determianda id (pode ser usado somente #id)
+
+==================================
+
+tag_html.class = modifica todas as tags que possuem determinada class (pode ser usado somente .class, na verdade é recomendado usar desse modo)
