@@ -1,9 +1,27 @@
 @charset "UTF-8";
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2em;
+}
+
 div{
     background-color: blue;
+    height: 200px;
+    width: 200px;
+    text-align: center;
 }
 
 div:hover{
     background-color: yellow;
+    color: rgb(190, 22, 190);
+    height: 200px;
+    width: 200px;
+}
+
+div > p{/* Isso faz com que se ouver algum paragrafo dentro da div, o paragrafo fique invisivel */
+    display: none;
 }
