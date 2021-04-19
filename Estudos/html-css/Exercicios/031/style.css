@@ -8,3 +8,7 @@ div{
     width: 200px;/*Largura*/
     border: 1px solid black;/*cria uma borda solida com 1px da cor preta*/
 }
+
+div:hover{/*Hover é uma pseudo-classe, que determina quando o mouse for passado por cima do elemento*/
+    background-color: yellow;/*A cor de fundo dele se torne amarelo*/
+}
