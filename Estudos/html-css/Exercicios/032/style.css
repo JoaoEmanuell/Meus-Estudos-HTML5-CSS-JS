@@ -24,6 +24,7 @@ div:hover{
 
 div > p{/* Isso faz com que se ouver algum paragrafo dentro da div, o paragrafo fique invisivel, isso se chama que a div tem um filho chamado paragrafo */
     display: none;
+    color: white;
 }
 
 div:hover > p{/*Caso o mouse passe sobre a div o pagrafo filho apareca*/
