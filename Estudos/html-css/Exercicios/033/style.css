@@ -1,1 +1,50 @@
 @charset "UTF-8";
+
+/*
+    Seletores personalizados
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = children
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 850;
+}
+
+.list{
+    font-size: 1em;
+    color: blue;
+}
+
+a{
+    color: black;
+    text-decoration: none;/* Text-decoration none, retira o sublinhado dos links */
+}
+
+a:visited{/* Visited é uma pseudo-classe que serve para indicar se o site já foi visitado ou não */
+    color: red;
+}
+
+a:hover{/* hover é uma pseudo-classe que serve quando o mouse for passado por cima */
+    text-decoration: underline; /* text-decoration underline */
+}
+
+a:active{/* active é uma pseudo-classe que quando o elemento for clicado ela sera ativada*/
+    color: yellow;
+}
+
+a::before{/* pseudo-elemento antes, server para modificar o conteudo antes da tag */
+    content: '⇒ ';
+}
+
+a::after{/* :: inidca que é um pseudo-elemento, os pseudos elementos interagem diretamente com o conteudo, modificando ele, nesse caso é o pseudo-elemento after, ele altera depois dos elementos */
+    content: ' ⇐';/* Content = Conteudo, depois dos links, coloque a frase [Link] */
+}
