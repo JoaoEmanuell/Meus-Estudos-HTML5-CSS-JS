@@ -148,7 +148,3 @@ tag_html.class = modifica todas as tags que possuem determinada class (pode ser 
 ::after = afeta o conteudo depois da tag
 
 ==================================
-
-content = adiciona conteudo dentro da tag html
-
-==================================

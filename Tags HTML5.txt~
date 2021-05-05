@@ -338,3 +338,31 @@ id = determina a id de uma tag, lembrando que so pode haver uma tag com o mesmo 
 class = determina a classe de uma tag, a class diferente do id pode existir para varios elementos
 
 ==================================
+
+form = area para formulario
+
+==================================
+
+fieldset = Demarcação para a area do formulario
+
+==================================
+
+legend = Legenda da marcação
+
+==================================
+
+input size = paramentro de tamanho do input
+
+==================================
+
+input maxlength = Numero maximo da caracteres do input
+
+==================================
+
+input placeholder = Descrição visual do input
+
+==================================
+
+label = Faz a união de um elemento a outro, quando vc clicar no elemento ele ira marcar o outro
+
+==================================
