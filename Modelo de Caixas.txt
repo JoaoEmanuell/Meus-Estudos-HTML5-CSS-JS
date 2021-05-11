@@ -1,0 +1,79 @@
+Todo elemento visivel na tela é uma caixa.
+
+A altura de uma box é chamada de height.
+
+A largura de uma box é chamada de width.
+
+Você pode traçar uma linha ao redor de toda a box, essa linha é 
+chamada de border, que é a borda da caixa.
+
+Por padrão a border é colada junto da box, mas você pode aumentar esse 
+tamanho usando a propiedade padding, padding siginifica preechimento ou 
+acolchoamento, o padding é um espaço interno.
+
+Caso você queira configurar o espaço externo, use a propiedade margin.
+
+Você também pode criar um espaço fora da borda, chamado de outline, 
+outline pode ser traduzido como contorno ou como traçado.
+
+Existem 2 tipos de box:
+
+o box-level e o inline-level
+
+O box-level, sempre se inicia em uma linha nova, ocupa toda a largura da 
+tela e ao finalizar pula a linha.
+
+O inline-level, não quebra a linha, tem por padrão o tamanho exato para 
+ter o seu conteudo e ao finalizar não quebra a linha.
+
+A tag mais famosa de box-level é a tag div.
+
+A tag mais famosa de inline-level é a tag span.
+
+Principais tags box-level:
+
+	div
+	
+	h1 - h6
+
+	p
+
+	main
+
+	header
+
+	nav
+
+	article
+
+	aside
+
+	footer
+
+	form
+
+	video
+
+Principais tags inline-level:
+
+	span
+
+	a
+
+	code
+
+	small
+
+	strong
+
+	em
+
+	sup sub
+
+	label
+
+	button
+
+	input
+
+	select
