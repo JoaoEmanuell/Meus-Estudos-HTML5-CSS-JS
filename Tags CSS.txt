@@ -152,3 +152,36 @@ tag_html.class = modifica todas as tags que possuem determinada class (pode ser 
 content = adiciona conteudo dentro da tag html
 
 ==================================
+
+Estilos de borda:
+    border-style: dashed; Pontilhado
+    border-style: dotted; Bolinhas
+    border-style: double; Linha dupla
+    border-style: groove; 3d
+    border-style: hidden; Oculta
+    border-style: inherit; Oculta
+    border-style: inset; 3d com as cores claras para baixo e escuras para cima
+    border-style: outset; 3d com as cores claras para cima e escuras para baixo
+    border-style: ridge; 3d com as cores claras externas e escuras internas
+    border-style: solid; solido, linha de cores retas
+    border-style: unset; Oculta
+
+==================================
+
+Padding é um espaçamento interno que fica entre o conteudo e a borda
+
+padding-top: topo.
+padding-left: esquerda.
+padding-right: direita.
+padding-bottom: baixo.
+
+==================================
+
+Margin é um espaçamento externo que fica apos a borda
+
+margin-top: topo.
+margin-left: esquerda.
+margin-right: direita.
+margin-bottom: baixo.
+
+==================================
