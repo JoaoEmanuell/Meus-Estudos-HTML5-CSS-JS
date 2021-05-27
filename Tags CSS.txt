@@ -175,6 +175,8 @@ padding-left: esquerda.
 padding-right: direita.
 padding-bottom: baixo.
 
+Quando se usa shorthands para simplificar o css, no caso do padding, você informa os valores em horario, caso informe os quatro ele ira modificar os 4, caso informe apenas um, ele ira enteder que todos os valores serão definidos como um, caso informe 2 valores, o primeiro valor serar o padding-top e padding-bottom, já o segundo é o left e o right
+
 ==================================
 
 Margin é um espaçamento externo que fica apos a borda
@@ -184,4 +186,14 @@ margin-left: esquerda.
 margin-right: direita.
 margin-bottom: baixo.
 
+O margin segue basicamente a mesma regra do padding, se usar o valor auto ele ira calcular automaticamente o valor centralizado com a tela
+
 ==================================
+
+Outline é um espaço dentro da Margin
+
+outline-width: tamanho;
+outline-style: estilo;
+outline-color: cor;
+
+O outline deve se informado: tamanho, estilo, cor

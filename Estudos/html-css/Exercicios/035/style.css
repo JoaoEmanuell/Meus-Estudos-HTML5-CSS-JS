@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+h1{
+    display: block;
+    background-color: lightgrey;
+    height: 300px;
+    width: 300px;
+/*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkolivegreen;
+*/
+    border: 10px solid darkolivegreen;
+/*
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+*/
+/*
+    padding: 10px 10px 10px 10px;
+*/
+    padding: 10px;
+
+/*
+    Quando se usa shorthands para simplificar o css, no caso do padding, você informa os valores em horario, caso informe os quatro ele ira modificar os 4, caso informe apenas um, ele ira enteder que todos os valores serão definidos como um, caso informe 2 valores, o primeiro valor serar o padding-top e padding-bottom, já o segundo é o left e o right
+*/
+
+/*
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+*/
+
+    margin: auto;
+
+/*
+    O margin segue basicamente a mesma regra do padding, se usar o valor auto ele ira calcular automaticamente o valor centralizado com a tela
+*/
+
+/*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: aqua;
+*/
+    outline: 5px dashed aqua;
+
+/*
+    O outline deve se informado: tamanho, estilo, cor
+*/
+}
+
+a{
+    display: inline-block;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: red;
+}
+
+p{
+    margin-top: 10px;
+}
+
+/*
+Estilos de borda:
+    border-style: dashed; Pontilhado
+    border-style: dotted; Bolinhas
+    border-style: double; Linha dupla
+    border-style: groove; 3d
+    border-style: hidden; Oculta
+    border-style: inherit; Oculta
+    border-style: inset; 3d com as cores claras para baixo e escuras para cima
+    border-style: outset; 3d com as cores claras para cima e escuras para baixo
+    border-style: ridge; 3d com as cores claras externas e escuras internas
+    border-style: solid; solido, linha de cores retas
+    border-style: unset; Oculta
+*/
+
+/*
+Padding:
+
+    Padding serve para configurar o espaçamento interno de uma box, ele seira
+*/
