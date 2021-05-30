@@ -311,7 +311,7 @@ va nos seu video hospedados, escolha o video e va nos três pontinhos, incopora�
 obs = para carregar videos que estão em outro site usa-se a tag <iframe> ja para o nosso site usa-se a tag <video>
 ==================================
 
-main = semelhante ao box
+main = semelhante ao box, mas serve para reter o conteudo principal do site
 
 ==================================
 
@@ -366,3 +366,7 @@ input placeholder = Descrição visual do input
 label = Faz a união de um elemento a outro, quando vc clicar no elemento ele ira marcar o outro
 
 ==================================
+
+article = Artigo
+
+aside = sub seção do artigo
