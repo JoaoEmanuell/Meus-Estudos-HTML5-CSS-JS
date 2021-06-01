@@ -197,3 +197,9 @@ outline-style: estilo;
 outline-color: cor;
 
 O outline deve se informado: tamanho, estilo, cor
+
+==================================
+
+Box-shadow é uma sombra na box
+
+Crie uma e coloque 1px 1px 1px black, depois no dev tools você consegue configurar tudo.
