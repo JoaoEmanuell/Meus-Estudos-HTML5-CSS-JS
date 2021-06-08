@@ -52,8 +52,6 @@ padding = espaçamento lateral
 ==================================
 margin = dependendo do paramentro ajusta automaticamente a janela (no caso do parametro auto)
 ==================================
-border-radius = faz uma borda arredonando o box
-==================================
 text-shadow = gera sombra no texto
 ==================================
 height = comprimento
@@ -203,3 +201,11 @@ O outline deve se informado: tamanho, estilo, cor
 Box-shadow é uma sombra na box
 
 Crie uma e coloque 1px 1px 1px black, depois no dev tools você consegue configurar tudo.
+
+==================================
+
+border-radius = faz uma borda arredonando o box.
+
+border-radius: tamanho1 tamanho2 = cria uma radius que modifique a ponta superior esquerda e a ponta inferior direita.
+
+border-radius: 50% = faz o item ficar redondo de forma automatica.
