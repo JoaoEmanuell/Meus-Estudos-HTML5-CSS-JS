@@ -209,3 +209,14 @@ border-radius = faz uma borda arredonando o box.
 border-radius: tamanho1 tamanho2 = cria uma radius que modifique a ponta superior esquerda e a ponta inferior direita.
 
 border-radius: 50% = faz o item ficar redondo de forma automatica.
+
+==================================
+
+borda decorada:
+
+    Ira permitir utilizar uma borda decorada, lembresse que você precisara ter uma borda já criada (border: tamanho solid black)
+border-image-source: url(url) = url da borda decorada.
+border-image-slice: tamanho.
+border-image-repeat: repeat.
+
+border-image: url(url) tamanho repeat;
