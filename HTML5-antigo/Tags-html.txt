@@ -1,0 +1,15 @@
+DOCTYPE html = Tipo de documento HTML.
+HTML:
+    html lang="pt-br" = Idioma do HTML.
+HEAD:
+    head = Configurações de como o site deve funcionar.
+    meta charset="UTF-8" = Configurações do padrão de acentuação do site
+    title titulo = Titulo da pagina.
+    style = tag para inserir estilos css.
+BODY:
+    h1 = Cria um titulo de hierarquia principal.
+    h2 = Cria um titulo de hierarquia secundaria, um subtitulo de h1.
+    div = cria uma caixa de divisão
+    hgroup = tag para agrupamento de titulos
+    img link alt = insere uma imagem no site, alt é uma descrição para a foto
+    header = cabeçalho do site
