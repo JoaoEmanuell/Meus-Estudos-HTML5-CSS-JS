@@ -1,0 +1,56 @@
+Para o HTML, espaços ou quebras de linha não importam no texto 
+principal.
+
+
+Operadores:
+
+&lt; = Menor < 
+&gt; = Maior > 
+&le; = Menor ou igual ≤
+&ge; = Maior ou igual ≥
+
+Moedas:
+
+&pound; = Libra esterina £
+&yen; = Yen ¥
+&euro; = Euro €
+
+Empresas:
+
+&copy; = Copyright ©
+&reg; = Marca registrada ®
+&trade; = Trade Mark ™
+
+Matemática:
+
+&permil; = Porcentagem por mil ‰
+&sum; = Soma ∑
+&infin; = Infinito ∞
+&times; = Vezes ×
+&plusmn; = Mais ou menos ± + -
+&oplus; = Mais circulado ⊕
+&radic; = Raiz quadrada √
+&ne; = Diferente ≠
+
+Letras Gregas:
+
+&delta; = Delta minusculo δ
+&Delta; = Delta maisculo Δ
+&lambda; = Lambda λ
+&omega; = Omega ω
+&phi; = Phi φ
+
+Setas:
+
+&larr; = Seta para esquerda ←
+&rarr; = Seta para direita →
+&uarr; = Seta para cima ↑
+&darr; = Seta para baixo ↓
+&harr; = Seta para dois lados (direita e esquerda) ↔
+&spades; = Espada ♠
+
+Baralho:
+
+&clubs; = Paus ♣
+&hearts; = Coração ♥
+&diams; = Copas ♦

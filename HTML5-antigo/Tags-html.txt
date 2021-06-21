@@ -1,15 +1,35 @@
 DOCTYPE html = Tipo de documento HTML.
+
 HTML:
     html lang="pt-br" = Idioma do HTML.
+
 HEAD:
     head = Configurações de como o site deve funcionar.
+
     meta charset="UTF-8" = Configurações do padrão de acentuação do site
     title titulo = Titulo da pagina.
+
     style = tag para inserir estilos css.
+
 BODY:
     h1 = Cria um titulo de hierarquia principal.
+
     h2 = Cria um titulo de hierarquia secundaria, um subtitulo de h1.
-    div = cria uma caixa de divisão
-    hgroup = tag para agrupamento de titulos
-    img link alt = insere uma imagem no site, alt é uma descrição para a foto
-    header = cabeçalho do site
+
+    div = cria uma caixa de divisão.
+
+    hgroup = tag para agrupamento de titulos.
+
+    img link alt = insere uma imagem no site, alt é uma descrição para a foto.
+
+    header = cabeçalho do site.
+
+    br = Quebra a linha naquela posição.
+
+    &nbsp; = insere um espaço em branco naquela posição, por cada uma que você utilizar um novo espaço sera inserido.
+
+    p = paragrafo.
+
+    wbr = indica que aquele texto pode ser quebrado caso fique na borda da pagina.
+
+    &shy; = indica que aquele texto pode ser quebrado caso fique na borda da pagina, caso seja quebrado faz com que um hifen seja colocado no lugar da quebra, normalmente deve ser usado em palavras.
