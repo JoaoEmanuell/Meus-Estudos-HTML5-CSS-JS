@@ -1,0 +1,16 @@
+position: posição; = posição do elemento
+    relative = relativa a pagina
+    absolute = absoluta em relação a pagina
+
+width: tamanho; = largura do elemento
+height: tamanho; = altura do elemento
+
+opacity: quant; = quantidade de opacidade do elemento, quanto mais proximo de 0 menos visivel o elemento sera, quanto mais proximo de 1 mais visivel o elemento sera.
+
+top: tamanho; = para posição absoluta ira determinar onde o elemento se encontrará em relação ao topo
+
+padding tamanho; = espaçamento interno do elemento
+
+box-sizing: border-box; = cria uma box delimitada pelo tamanho da borda do elemento que está acima na hierarquia
+
+transition: estilo tempo; = cria uma transição entre o estilo e o tempo que ele ira levar para ser carregado, util para usar com o hover, coloque o estilo que sera afetado, quando o hover for chamado o estilo sera renderizado obedeçendo a configuração do transition.

@@ -11,6 +11,8 @@ HEAD:
 
     style = tag para inserir estilos css.
 
+    link rel="stylesheet" href="caminho" = estilo css externo.
+
 BODY:
     h1 = Cria um titulo de hierarquia principal.
 
