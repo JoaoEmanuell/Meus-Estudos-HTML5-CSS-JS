@@ -25,3 +25,7 @@ text-align: alinhamento; = Alinha o texto na posição desejada
     justify = justificado (a esquerda e a direita)
 
 text-indent: tamanho; = identa o texto no tamanho desejado
+
+background-color: cor; = define a cor de fundo do elemento
+
+color: cor; = define a cor da letra do elemento

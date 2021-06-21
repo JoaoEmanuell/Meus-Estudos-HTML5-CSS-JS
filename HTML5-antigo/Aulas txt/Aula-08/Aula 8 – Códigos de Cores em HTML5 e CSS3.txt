@@ -1,0 +1,17 @@
+O codigo hexadecimal para cores funciona da seguinte maneira:
+
+    #rdgrbl
+
+    rd = red
+
+    gr = green
+
+    bl = blue
+
+rgb(red,green,blue) = nives de cores em rgb
+
+rgba(red, green, blue, alpha) = alpha siginifica transparencia, vai de 0 a 1, sendo que quanto mais proximo de 0 mais transparente e quanto mais proximo de 1 menos transparente
+
+hsl(matriz, saturação%, luminosidade%) = nivel de matriz, saturação e luminosidade, saturação e luminosidade devem ser representados em %
+
+hsla(matriz, saturação%, luminosidade%, alpha) = nivel de matriz, saturação e luminosidade, saturação e luminosidade devem ser representados em %, alpha é o nivel do canal alpha, vai de 0 a 1, sendo que quanto mais proximo de 0 mais transparente e quanto mais proximo de 1 menos transparente
