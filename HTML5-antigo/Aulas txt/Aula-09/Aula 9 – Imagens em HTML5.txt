@@ -1,0 +1,5 @@
+figure = tag semantica para colocar imagens que fazem parte do conteudo
+
+figcaption = tag para inserir legendas da tag figure, nessas legendas pode se colocar titulos, ou paragrafos, ou elementos de HTML.
+
+a figcaption ajuda a mecanismos de buscas buscar a sua imagem, fazendo com que o seu site seja mais recomendado.

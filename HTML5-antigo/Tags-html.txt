@@ -49,3 +49,7 @@ BODY:
     pre = pre-formatado, vai ser considerado, espaços, marcas de tabulação,
 
     code = indica que o texto será formatado como codigo, colocando ele de forma monoespaçada
+
+    figure = tag semantica para colocar imagens que fazem parte do conteudo
+
+    figcaption = tag para inserir legendas da tag figure, nessas legendas pode se colocar titulos, ou paragrafos, ou elementos de HTML.
