@@ -33,3 +33,19 @@ BODY:
     wbr = indica que aquele texto pode ser quebrado caso fique na borda da pagina.
 
     &shy; = indica que aquele texto pode ser quebrado caso fique na borda da pagina, caso seja quebrado faz com que um hifen seja colocado no lugar da quebra, normalmente deve ser usado em palavras.
+
+    b = negrito
+
+    i = italico
+
+    em = deixa em italico porém dando enfase ao conteudo
+
+    del = faz um texto riscado, porém indica que ele é um texto "deletado"
+
+    sup = texto sobrescrito
+
+    sub = texto subescrito
+
+    pre = pre-formatado, vai ser considerado, espaços, marcas de tabulação,
+
+    code = indica que o texto será formatado como codigo, colocando ele de forma monoespaçada

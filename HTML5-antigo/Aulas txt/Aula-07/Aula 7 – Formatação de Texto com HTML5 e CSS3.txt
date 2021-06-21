@@ -1,15 +1,3 @@
-tag-html {
-    contéudo css;
-    }
-
-font-family: familia; = Configura a familia da fonte desejada.
-
-font-size: tamanho; = Configura o tamanho da fonte.
-
-color: cor; = Configura a cor do texto.
-
-text-shadow: lateral vertical espalhamento cor; = insere uma sombra no texto, a primeira propiedade é o desolcamento lateral da sombra, a segunda é o desolcamento vertical da sombra, a terceira é o espalhamento da sombra, quanto mais espalhada mais desfocada a sombra sera e a ultima é a cor da fonte.
-
 text-decoration: decoração; = faz o texto ficar decorado, depedendo do que você passa:
     line-through = Texto riscado
     none = sem decoração
