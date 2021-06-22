@@ -1,0 +1,3 @@
+a href target = cria uma ancora, informe o link e o alvo, caso você coloque # no href vai ser direcionado para a pasta atual.
+        _blank = abre o site em outra aba
+        _self = abre o site na aba atual, valor padrão
