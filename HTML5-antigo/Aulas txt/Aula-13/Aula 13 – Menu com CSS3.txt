@@ -1,0 +1,18 @@
+list{
+    list-style: estilo; = serve para definir o estilo da lista
+}
+
+text-transform: tipo; = transforma o texto para o tipo desejado
+
+display: tipo; = modifica o display do item especificado
+    block = bloco = faz com que ele se torne um bloco da pagina
+    inline-block  = faz com que ele tenha propiedades de bloco e de linha
+    none          = objeto fica oculto
+
+position: posição; = modifica a posição do item especificado
+    absolute = posição absoluta em relação ao site.
+    relative = posição relativa ao site.
+
+padding: espaço; = espaçamento interno do objeto
+
+margin: espaço; = espaçamento externo do objeto

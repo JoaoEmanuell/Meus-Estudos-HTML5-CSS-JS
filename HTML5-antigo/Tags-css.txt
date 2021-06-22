@@ -50,3 +50,14 @@ padding tamanho; = espaçamento interno do elemento
 box-sizing: border-box; = cria uma box delimitada pelo tamanho da borda do elemento que está acima na hierarquia
 
 transition: estilo tempo; = cria uma transição entre o estilo e o tempo que ele ira levar para ser carregado, util para usar com o hover, coloque o estilo que sera afetado, quando o hover for chamado o estilo sera renderizado obedeçendo a configuração do transition.
+
+list{
+    list-style: estilo; = serve para definir o estilo da lista
+}
+
+text-transform: tipo; = transforma o texto para o tipo desejado
+
+display: tipo; = modifica o display do item especificado
+    block = bloco = faz com que ele se torne um bloco da pagina
+    inline-block  = faz com que ele tenha propiedades de bloco e de linha
+    none          = objeto fica oculto
