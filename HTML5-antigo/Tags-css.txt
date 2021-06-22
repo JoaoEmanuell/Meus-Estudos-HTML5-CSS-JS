@@ -35,8 +35,8 @@ color: cor; = define a cor da letra do elemento
 border: tamanho tipo cor; = cria uma borda ao redor do elemento
 
 position: posição; = posição do elemento
-    relative = relativa a pagina
-    absolute = absoluta em relação a pagina
+    relative = relativa ao conteiner, ele ira seguir todas as configurações do conteiner
+    absolute = absoluta em relação a pagina, ele não ira seguir as configurações do conteiner mas sim as própias
 
 width: tamanho; = largura do elemento
 height: tamanho; = altura do elemento
