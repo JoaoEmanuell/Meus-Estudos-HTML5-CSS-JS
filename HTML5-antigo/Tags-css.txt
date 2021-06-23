@@ -72,3 +72,8 @@ background: url(link) no-repeat left top; = faz com que o elemento receba uma im
 float: posição; = faz o elemento fluturar, fazendo ele ficar naquela posição, lembrando que ele só ira flutuar caso ele seja um bloco.
 
 clear: both; = limpa a flutuação de um elemento, fazendo com que ele va para a posição original dele caso ele esteja dentro de um elemento flutuante.
+
+vertical-align: posição; = indica a posição em que o texto sera alinhado dentro da linha
+    top = ao topo
+    bottom = em baixo
+    middle = ao meio
