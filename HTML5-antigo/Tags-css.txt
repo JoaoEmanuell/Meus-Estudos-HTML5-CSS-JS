@@ -68,3 +68,7 @@ background: url(link) no-repeat left top; = faz com que o elemento receba uma im
     font-family: 'Nome';
     src: url("Caminho da fonte");
 } = serve para colocar fontes que você tem no servidor.
+
+float: posição; = faz o elemento fluturar, fazendo ele ficar naquela posição, lembrando que ele só ira flutuar caso ele seja um bloco.
+
+clear: both; = limpa a flutuação de um elemento, fazendo com que ele va para a posição original dele caso ele esteja dentro de um elemento flutuante.
