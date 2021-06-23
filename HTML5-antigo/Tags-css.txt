@@ -61,3 +61,5 @@ display: tipo; = modifica o display do item especificado
     block = bloco = faz com que ele se torne um bloco da pagina
     inline-block  = faz com que ele tenha propiedades de bloco e de linha
     none          = objeto fica oculto
+
+background: url(link) no-repeat left top; = faz com que o elemento receba uma imagem de fundo usando o css

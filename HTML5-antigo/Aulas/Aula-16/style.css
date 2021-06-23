@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body{
+    background-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inteface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);
+    padding: 10px;
+}
+
+#icone{
+    position: absolute;
+    left: 820px;
+    top: 40px;
+}
+
+p{
+    text-align: justify; 
+    text-indent: 50px;
+}
+
+/* Formatação de imagens com legendas */
+
+.foto-legenda{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0,0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/* Menu */
+
+#menu {
+    display: block;
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; /* Absoluta ele fica dentro do site, relativa faz ele ficar dentro do objeto */
+    top: -20px;
+    left: 400px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+#menu ul :hover {
+    background-color: #606060;
+    color: white;
+    text-decoration: underline;
+}
+
+#menu h1{
+    display: none;
+}
+
+#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+#cabecalho {
+    border: 1px solid black;
+    height: 150px;
+    background: url(../../curso-html5-pacote01/projeto-glass-html5/_imagens/glass-logo-peq.jpg) no-repeat 0px 104px;
+}
+
+#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 3.2px rgba(0, 0, 0, 0.61);
+    padding: 0px;
+    margin-bottom: -1px;
+}
+
+#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: -1px;
+}

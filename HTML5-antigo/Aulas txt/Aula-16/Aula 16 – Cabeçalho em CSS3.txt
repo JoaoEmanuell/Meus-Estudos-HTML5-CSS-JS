@@ -1,0 +1,1 @@
+background: url(link) no-repeat left top; = faz com que o elemento receba uma imagem de fundo usando o css
