@@ -74,3 +74,15 @@ BODY:
     a href target = cria uma ancora, informe o link e o alvo, caso você coloque # no href vai ser direcionado para a pasta atual.
         _blank = abre o site em outra aba.
         _self = abre o site na aba atual, valor padrão.
+
+    table = delimita uma área para uma tabela, cara tabela possui linhas, cada linha possui células.
+
+    tr = linhas da tabela.
+
+    td = células das linhas da tabela.
+
+    caption = titulo da tabela.
+
+    rowspan="n" = indica quantas linhas o td ira ocupar.
+
+    colspan="n" = indica quantas colunas o td ira ocupar.

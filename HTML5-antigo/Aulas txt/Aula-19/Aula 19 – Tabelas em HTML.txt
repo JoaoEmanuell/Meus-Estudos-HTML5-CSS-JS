@@ -1,0 +1,10 @@
+table = delimita uma área para uma tabela, cara tabela possui linhas, cada linha possui células
+tr = linhas da tabela
+td = células das linhas da tabela
+caption = titulo da tabela
+rowspan="n" = indica quantas linhas o td ira ocupar
+colspan="n" = indica quantas colunas o td ira ocupar
+vertical-align: posição; = indica a posição em que o texto sera alinhado dentro da linha
+    top = ao topo
+    bottom = em baixo
+    middle = ao meio
