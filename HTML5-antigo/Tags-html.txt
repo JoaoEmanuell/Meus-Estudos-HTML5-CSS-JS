@@ -36,41 +36,41 @@ BODY:
 
     &shy; = indica que aquele texto pode ser quebrado caso fique na borda da pagina, caso seja quebrado faz com que um hifen seja colocado no lugar da quebra, normalmente deve ser usado em palavras.
 
-    b = negrito
+    b = negrito.
 
-    i = italico
+    i = italico.
 
-    em = deixa em italico porém dando enfase ao conteudo
+    em = deixa em italico porém dando enfase ao conteudo.
 
-    del = faz um texto riscado, porém indica que ele é um texto "deletado"
+    del = faz um texto riscado, porém indica que ele é um texto "deletado".
 
-    sup = texto sobrescrito
+    sup = texto sobrescrito.
 
-    sub = texto subescrito
+    sub = texto subescrito.
 
-    pre = pre-formatado, vai ser considerado, espaços, marcas de tabulação,
+    pre = pre-formatado, vai ser considerado, espaços, marcas de tabulação..
 
-    code = indica que o texto será formatado como codigo, colocando ele de forma monoespaçada
+    code = indica que o texto será formatado como codigo, colocando ele de forma monoespaçada.
 
-    figure = tag semantica para colocar imagens que fazem parte do conteudo
+    figure = tag semantica para colocar imagens que fazem parte do conteudo.
 
     figcaption = tag para inserir legendas da tag figure, nessas legendas pode se colocar titulos, ou paragrafos, ou elementos de HTML.
 
-    nav = tag para um menu de navegação
+    nav = tag para um menu de navegação.
 
     ol = cria uma lista ordenada, cada item dentro da lista deve estar dentro de um "li", a ol pode receber tipos
-        type="1" = Lista númerica padrão (1 2 3...)
-        type="a" = Lista com letras minusculas (a b c...)
-        type="A" = Lista com letras maisculas (A B C...)
-        type="i" = Lista com algarismos romanos minusculos (i ii iii)
-        type="I" = Lista com algarismos romanos maisculos (I II III)
-    Caso utilize o paramentro "start" após o type a lista ira começar a partir dele (start = "v"), start só aceita valores númericos
+        type="1" = Lista númerica padrão (1 2 3...).
+        type="a" = Lista com letras minusculas (a b c...).
+        type="A" = Lista com letras maisculas (A B C...).
+        type="i" = Lista com algarismos romanos minusculos (i ii iii).
+        type="I" = Lista com algarismos romanos maisculos (I II III).
+    Caso utilize o paramentro "start" após o type a lista ira começar a partir dele (start = "v"), start só aceita valores númericos.
 
-    ul = cria uma lista não ordenada, cada item dentro da lista deve estar dentro de um "li", a ul pode receber tipos
-        type="disc"   = valor padrão, pequenos discos preenchidos
-        type="square" = pequenos quadrados preenchidos
-        type="circle" = pequenos circulos ocos
+    ul = cria uma lista não ordenada, cada item dentro da lista deve estar dentro de um "li", a ul pode receber tipos.
+        type="disc"   = valor padrão, pequenos discos preenchidos.
+        type="square" = pequenos quadrados preenchidos.
+        type="circle" = pequenos circulos ocos.
 
     a href target = cria uma ancora, informe o link e o alvo, caso você coloque # no href vai ser direcionado para a pasta atual.
-        _blank = abre o site em outra aba
-        _self = abre o site na aba atual, valor padrão
+        _blank = abre o site em outra aba.
+        _self = abre o site na aba atual, valor padrão.

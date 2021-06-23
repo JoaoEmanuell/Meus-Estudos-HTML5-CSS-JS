@@ -1,0 +1,6 @@
+@font-face{
+    font-family: 'Nome';
+    src: url("Caminho da fonte");
+}
+
+Esssa forma ira fazer com que você possa utilizar fontes que estão no servidor.
