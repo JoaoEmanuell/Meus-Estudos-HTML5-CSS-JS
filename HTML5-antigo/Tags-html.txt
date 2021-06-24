@@ -90,3 +90,5 @@ BODY:
     article = serve para delimitar um artigo do site.
 
     script = serve para colocar os comandos de javascript e eles serem executados.
+
+    script src="script.js" = serve para criar uma referencia para um arquivo js.
