@@ -1,0 +1,1 @@
+article = serve para delimitar um artigo do site

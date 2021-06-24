@@ -86,3 +86,5 @@ BODY:
     rowspan="n" = indica quantas linhas o td ira ocupar.
 
     colspan="n" = indica quantas colunas o td ira ocupar.
+
+    article = serve para delimitar um artigo do site
