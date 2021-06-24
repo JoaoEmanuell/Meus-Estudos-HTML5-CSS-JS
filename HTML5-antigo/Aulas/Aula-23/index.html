@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Javascript</title>
+</head>
+<body>
+    <h1>Acenda a lâmpada</h1>
+    <img src="../../curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg" alt="Foto de uma lâmpada apagada" id="luz" onmousemove="acendelampada()" onmouseout="apagarlampada()" onclick="quebrarlampada()">
+    <script>
+        function acendelampada(){
+            let lamp = document.getElementById('luz')
+            lamp.src = "../../curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-acesa.jpg"
+            lamp.alt = "Foto de uma lâmpada acesa"
+        }
+        function apagarlampada(){
+           let lamp = document.getElementById('luz')
+           lamp.src = "../../curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg"
+           lamp.alt = "Foto de uma lâmpada apagada"
+           lamp.id = "luz"
+        }
+        function quebrarlampada(){
+            let lamp = document.getElementById('luz')
+            lamp.src = "../../curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-quebrada.jpg"
+            lamp.alt = "Foto de uma lâmpada quebrada"
+            lamp.id = "luz-quebrada"
+        }
+    </script>
+</body>
+</html>
