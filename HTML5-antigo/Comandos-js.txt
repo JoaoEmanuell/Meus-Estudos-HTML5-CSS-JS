@@ -1,0 +1,3 @@
+alert("Mensagem"); = exibe uma mensagem na tela
+document.write("Mensagem"); = Escreve no documento a mensagem especificada
+Date(); = Função que exibe toda a informação sobre a data

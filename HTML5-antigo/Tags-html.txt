@@ -87,4 +87,6 @@ BODY:
 
     colspan="n" = indica quantas colunas o td ira ocupar.
 
-    article = serve para delimitar um artigo do site
+    article = serve para delimitar um artigo do site.
+
+    script = serve para colocar os comandos de javascript e eles serem executados.
