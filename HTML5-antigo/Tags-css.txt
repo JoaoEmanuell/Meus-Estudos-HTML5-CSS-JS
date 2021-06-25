@@ -77,3 +77,9 @@ vertical-align: posição; = indica a posição em que o texto sera alinhado den
     top = ao topo
     bottom = em baixo
     middle = ao meio
+
+transform: scale(escala) = transforma o elemento para a escala desejada.
+
+background-position: x% y% = faz com que a posição do background seja definida como tal, util principalmente em imagens que ficam ao fundo.
+
+background-size: tamanhopx tamanhopx = faz com que o tamanho do background seja definido como tal, util principalmente em imagens que ficam ao fundo.
