@@ -92,3 +92,5 @@ BODY:
     script = serve para colocar os comandos de javascript e eles serem executados.
 
     script src="script.js" = serve para criar uma referencia para um arquivo js.
+
+    iframe src="pagina" frameborder="0" name="nome" id="id" scrolling="param" = cria um iframe para outra pagina, se o scrolling for igual a "no" o elemento não tera barra lateral, senão ele tera uma barra propia da pagina.
