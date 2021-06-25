@@ -94,3 +94,7 @@ BODY:
     script src="script.js" = serve para criar uma referencia para um arquivo js.
 
     iframe src="pagina" frameborder="0" name="nome" id="id" scrolling="param" = cria um iframe para outra pagina, se o scrolling for igual a "no" o elemento não tera barra lateral, senão ele tera uma barra propia da pagina.
+
+    img src="caminho" alt="alt" usemap="#nome_do_mapa"
+    map name="nome_do_mapa" = cria um mapa de imagem, util para maior interação com uma imagem
+        area shape="tipo" coords="cordenadas-realativa-ao-tipo" href="caminho" alt="alt" target="nome_do_iframe" = cria uma área de interatividade com a imagem, o shape pode ser definido como "rect ou circle ou poly" no caso do rect você informa o "x1,y1,x2,y2" que são as cordenadas referentes a largura e altura da área desejada, caso seja um "circle" você informa o "meiox, meioy, raio" que são as cordenadas referentes ao meio do circulo e ao raio do mesmo, caso seja um poly, você informa quantas cordenadas quer, até fechar o poligono.
