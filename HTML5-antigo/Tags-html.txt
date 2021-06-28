@@ -98,3 +98,9 @@ BODY:
     img src="caminho" alt="alt" usemap="#nome_do_mapa"
     map name="nome_do_mapa" = cria um mapa de imagem, util para maior interação com uma imagem
         area shape="tipo" coords="cordenadas-realativa-ao-tipo" href="caminho" alt="alt" target="nome_do_iframe" = cria uma área de interatividade com a imagem, o shape pode ser definido como "rect ou circle ou poly" no caso do rect você informa o "x1,y1,x2,y2" que são as cordenadas referentes a largura e altura da área desejada, caso seja um "circle" você informa o "meiox, meioy, raio" que são as cordenadas referentes ao meio do circulo e ao raio do mesmo, caso seja um poly, você informa quantas cordenadas quer, até fechar o poligono.
+
+    audio controls="controls" = insere um player de áudio com os controles ativos.
+        source src="caminho.ext" type="audio/format" = insere o áudio, lembre-se de definir de acordo com a extensão, caso a extensão seja .mp3 o format será "mpeg", caso seja .ogg o format será "ogg".
+    
+    video controls="controls" poster="caminho" = insere um player de vídeo com os controles ativos, o poster serve para definir um poster para o vídeo, enquanto o vídeo não for reproduzido a imagem definida será a capa do vídeo.
+        source src="caminho.ext" type="video/format" = insere o vídeo, lembre-se de definir de acordo com a extensão, caso a extensão seja .mp4 o format será "mp4", caso seja .ogv o format será "ogg".
