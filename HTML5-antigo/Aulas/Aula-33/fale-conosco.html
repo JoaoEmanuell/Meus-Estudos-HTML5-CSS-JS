@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tudo sobre Google Glass</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div id="inteface">
+            <header id="cabecalho">
+                <hgroup>
+                    <h1>Google Glass</h1>
+                    <h2 style="background-color: white;">A revolução do Google está chegando</h2>
+                </hgroup>
+                
+                <img id="icone" src="../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png" alt="Oculos pequeno">
+                
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul >
+                        <li  onmousemove="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/home.png')" onmouseout="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')"><a href="index.html"><a href="index.html">Home</a></li>
+                        <li  onmousemove="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/especificacoes.png')" onmouseout="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')"><a href="specs.html">Especificações</a></li>
+                        <li  onmousemove="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/fotos.png')" onmouseout="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
+                        <li  onmousemove="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/multimidia.png')" onmouseout="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')"><a href="multimidia.html">Multimídia</a></li>
+                        <li  onmousemove="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')" onmouseout="MudaFoto('../../curso-html5-pacote01/projeto-glass-html5/_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </header>
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3>Fale Conosco > Contato</h3>
+                <h1>Formulário de Contato</h1>
+                <h2>por Gustavo Guanabara</h2>
+                <em>
+                    <h4 id="att">Atualizado em 01/Maio/2013</h4>
+                </em>
+            </hgroup>
+        </header>
+
+                <form action="">
+                    <fieldset id="usuario">
+                        <legend><label for="cNome">Identificação do Usuário</label></legend>
+                            <p><label for="cNome">Nome: </label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+                            <p><label for="cSenha">Senha: </label><input type="password" name="pSenha" id="cSenha" size="8" maxlength="8"></p>
+                            <p><label for="cEmail">E-mail:</label> <input type="email" name="pEmail" id="cEmail" size="20" maxlength="40"></p>
+                            <fieldset>
+                                <legend>Sexo:</legend>
+                                    <input type="radio" name="pSexo" id="cMasc" checked="checked"><label for="cMasc"> Masculino</label><br>
+                                    <input type="radio" name="pSexo" id="cFem"> <label for="cFem">Feminino</label>
+                            </fieldset>
+                            <p><label for="cDate">Data de Nascimento: </label><input type="date" name="pDate" id="cDate"></p>
+
+                    </fieldset>
+                    <fieldset id="endereco">
+                        <legend>Endereço do Usuário</legend>
+                            <p><label for="cRua">Logradouro: </label><input type="text" name="tRau" id="cRua" maxlength="80" placeholder="Rua, Av, Trav..."></p>
+                            <p><label for="cNum">Número: </label><input type="number" name="tNum" id="cNum" min="1" max="9999"></p>
+                            <p>Estado:</p>
+                            <p>Cidade:</p>
+                    </fieldset>
+
+                    <fieldset id="mensagem">
+                        <legend>Mensagem do Usuário</legend>
+                            Grau de Urgência:
+                            Mensagem:
+                    </fieldset>
+
+                    <fieldset id="pedido">
+                        <legend>Quero um Google Glass</legend>
+                            Gostaria de adquirir um Google Glass quando disponível
+                            Cor:
+                            Quantidade:
+                            Preço Total: R$
+                    </fieldset>
+                    [BOTÃO ENVIAR]
+                </form>
+
+    <footer id="rodape">
+        <p>
+            <em> &copy; Copyright 2013 - by Gustavo Guanabara</em><br>
+            <p id="redes"><a href="http://www.facebook.com"target="_blank"><em>Facebook </em></a>
+                <span id="pipe">|</span> 
+                <a href="http://www.twitter.com"target="_blank"><em>Twitter</em></a></p>
+        </p>
+    </footer>
+        </div>
+            <script src="script.js"></script>
+    </body>
+</html>
