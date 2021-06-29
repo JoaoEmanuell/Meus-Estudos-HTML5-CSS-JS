@@ -10,8 +10,14 @@ function nome(paramentros){
 
 <tag html onclick="nome_da_função(paramentro)"> = quando o objeto HTML receber um clique aquela função será disparada.
 
-<tag html onmousemove="nome_da_função(paramentro)"> = quando o mouse se mover sobre o objeto HTML aquela função será disparada
+<tag html onmousemove="nome_da_função(paramentro)"> = quando o mouse se mover sobre o objeto HTML aquela função será disparada.
 
-document.getElementById('id').src = "caminho" = ira pegar o id do elemento desejado e trocar o src dele pelo novo src indicado, isso funciona caso o elemento use um src, como uma imagem por exemplo, ou um vídeo (pode usar o elemento dentro de uma variavel e colocar o .src, dessa forma ele ira modificar o elemento, isso funciona para todos os paramentros colocados, como alt, style e ect)
+document.getElementById('id').src = "caminho" = ira pegar o id do elemento desejado e trocar o src dele pelo novo src indicado, isso funciona caso o elemento use um src, como uma imagem por exemplo, ou um vídeo (pode usar o elemento dentro de uma variavel e colocar o .src, dessa forma ele ira modificar o elemento, isso funciona para todos os paramentros colocados, como alt, style e ect).
 
-<tag html onmouseout="nome_da_função(paramentro)"> = quando o mouse sair de cima do elemento a função será disparada
+<tag html onmouseout="nome_da_função(paramentro)"> = quando o mouse sair de cima do elemento a função será disparada.
+
+oninput = quando algo for digitado esse dom sera ativado.
+
+Number(var ou element) = converte o item em um numero.
+
+var ou element.value = converte o item em um valor.
