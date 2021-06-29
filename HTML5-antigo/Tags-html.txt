@@ -116,5 +116,15 @@ BODY:
 
         input type="date" = cria um input de data.
 
+        input type="range" min="min" max="max" step="passo" = cria um input que pode ser selecionado o valor por meio de uma bolinha arrastavel, um inpute de range, os valores min, max e step são opcionais.
 
     label for="id" = cria uma referencia entre o elemento com o id indicado, se você clicar no elemento que esteja dentro do label, automaticamente o elemento com o id informado será selecionado.
+
+    select = cria um campo de seleção, cada select deve ter options, que possuem values, um grupo de options pode estar dentro de um optgroup.
+        optgroup label="Nome" = cria um grupo de opçoes que possui um nome, os options estaram dentro dele, optgroup é opcional.
+            option value="Valor">Nome</ = cria uma opção de seleção, para que o usuario selecione a opção.
+
+    datalist = cria uma datalist, se colocar o paramentro list com o id da datalist em um input:text, ele ira pegar os dados do datalist e facilitar a digitação, um datalist deve estar cheio de option com o valores que ira auxiliar.
+        option value="valor" = cria uma opção na hora da digitação ira facilitar a digitação do usuario.
+
+    textarea cols="número de colunas" rows="número de linhas" = cria uma área de texto, para que o usuario possa digitar o quanto quiser, caso o texto ultrapasse o número de linhas, a box sera expandida.
